@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>RELATIONSHIP METER</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+
+<main>
+    <body>
+        <div class="container">
+            <h1>RELATIONSHIP METER</h1>
+            <form action="/submit" method="POST">
+                <label for="yourName" class="input" >Enter your name:</label><br>
+                <input type="text" id="yourName" name="yourName" class="input" value=<%=locals.yourName%>><br>
+                <label for="yourPartnerName"class="input">Enter your partner's name:</label><br>
+                <input type="text" id="yourPartnerName" name="yourPartnerName" class="input" value=<%=locals.yourPartnerName%> ><br>
+                <input type="submit" class="input button">
+            </form>
+            <h2><%= locals.message %></h2>
+        </div>
+    </body>
+</main>
