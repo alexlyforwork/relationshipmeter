@@ -28,6 +28,6 @@ app.post("/submit",async (req,res)=>{
     }catch(error){
         console.log(error.message)
     }})
-// app.listen(port,()=>{
-//     console.log(`Server started on port ${port}`);
-// })
+app.listen(port,()=>{
+    console.log(`Server started on port ${port}`);
+})
