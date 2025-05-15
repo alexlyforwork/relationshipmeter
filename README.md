@@ -1,6 +1,6 @@
 **Relationship Meter Full-stack Mini App**
 
-A fun full-stack web app that determines the relationship based on names using the FLAMES concept.
+A fun full-stack web app that determines the relationship compatibility based on names using the FLAMES concept.
 
 **Technologies Used**
 
